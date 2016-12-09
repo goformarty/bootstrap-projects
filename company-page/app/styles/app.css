@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Merriweather:300,400');
+
+body {
+	font-family: 'Merriweather', serif;
+	font-weight: 300;
+	color: #2f4c54;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Josefin Sans', sans-serif;
+	color: #ad662b;
+	text-transform: uppercase;
+
+}
+
+.jumbotron {
+	background-color: #3C485E;
+	color: #EBE8E1;
+	padding-top: 200px;
+}
+
+.grey {
+	background-color: #E3E3E3;
+}
