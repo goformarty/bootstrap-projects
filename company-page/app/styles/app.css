@@ -9,6 +9,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: 'Josefin Sans', sans-serif;
 	color: #ad662b;
 	text-transform: uppercase;
+	display: inline-block;
+	border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #ad662b;
 
 }
 
