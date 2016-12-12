@@ -38,4 +38,6 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   z-index: 1000;
   width: 100%;
+  background: #fff;
+  border-bottom: 1px #000 solid;
 }
