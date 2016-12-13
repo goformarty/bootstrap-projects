@@ -1,24 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Merriweather:300,400');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Space+Mono');
 
 body {
-	font-family: 'Merriweather', serif;
-	font-weight: 300;
+	font-family: 'Playfair Display', serif;
 	color: #2f4c54;
+	text-align: justify;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Josefin Sans', sans-serif;
+	/*font-family: 'Josefin Sans', sans-serif;*/
+	font-family: 'Space Mono', monospace;
+	letter-spacing: 2px;
 	color: #ad662b;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 	display: inline-block;
-	border-bottom-style: solid;
-    border-width: 2px;
-    border-color: #ad662b;
-
+	padding-bottom: 5px;
+	border-bottom: 1.5px solid #ad662b;
+	margin-bottom: 50px;
 }
 
 .jumbotron {
 	color: #EBE8E1;
 	padding-top: 200px;
+
 }
 
 .grey {
@@ -26,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .intro {
-		background-color: #3C485E;
+	background-color: #3C485E;
 	min-height: 100vh;
     height: 100vh;
 }
