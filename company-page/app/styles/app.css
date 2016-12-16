@@ -17,20 +17,27 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 50px;
 }
 
+.heading-main {
+	margin-bottom: 80px;
+}
+
 .jumbotron {
 	color: #EBE8E1;
 	padding-top: 200px;
 }
 
 .grey {
-	background-color: #b3b3b3;
-	color: #fff;
+	background-color: #f2eee9;
 }
 
 .intro {
 	background-color: #3C485E;
 	min-height: 100vh;
     height: 100vh;
+}
+
+.no-padding {
+	padding: 0;
 }
 
 #about, 
@@ -71,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	margin-bottom: 40px;
 	padding: 10px;
-	background: #b3b3b3;
+	background: #f2eee9;
 	-webkit-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
@@ -91,6 +98,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .service:hover {
 	border-color: #fff;
+	border-width: 3px;
+	border-radius: 10%;
 }
 
 .service:hover span{
@@ -103,8 +112,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .service:hover .heading {
 	top: -30px;
-	color: #fff;
-	border: none;
 }
 
 .service .description {
